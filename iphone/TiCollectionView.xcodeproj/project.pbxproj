@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -42,6 +42,10 @@
 		24DD6CFA1134B3F500162E58 /* DeMarcelpociotCollectionviewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* DeMarcelpociotCollectionviewModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* DeMarcelpociotCollectionviewModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* DeMarcelpociotCollectionviewModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* DeMarcelpociotCollectionviewModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* DeMarcelpociotCollectionviewModuleAssets.m */; };
+		7534D4EF1BC549030004DF72 /* DeMarcelpociotCollectionviewHeaderFooterReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7534D4EB1BC549030004DF72 /* DeMarcelpociotCollectionviewHeaderFooterReusableView.h */; settings = {ASSET_TAGS = (); }; };
+		7534D4F01BC549030004DF72 /* DeMarcelpociotCollectionviewHeaderFooterReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7534D4EC1BC549030004DF72 /* DeMarcelpociotCollectionviewHeaderFooterReusableView.m */; settings = {ASSET_TAGS = (); }; };
+		7534D4F11BC549030004DF72 /* DeMarcelpociotSearchDisplayController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7534D4ED1BC549030004DF72 /* DeMarcelpociotSearchDisplayController.h */; settings = {ASSET_TAGS = (); }; };
+		7534D4F21BC549030004DF72 /* DeMarcelpociotSearchDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7534D4EE1BC549030004DF72 /* DeMarcelpociotSearchDisplayController.m */; settings = {ASSET_TAGS = (); }; };
 		AA747D9F0F9514B9006C5449 /* DeMarcelpociotCollectionview_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* DeMarcelpociotCollectionview_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -78,6 +82,10 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* DeMarcelpociotCollectionviewModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeMarcelpociotCollectionviewModuleAssets.h; path = Classes/DeMarcelpociotCollectionviewModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* DeMarcelpociotCollectionviewModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeMarcelpociotCollectionviewModuleAssets.m; path = Classes/DeMarcelpociotCollectionviewModuleAssets.m; sourceTree = "<group>"; };
+		7534D4EB1BC549030004DF72 /* DeMarcelpociotCollectionviewHeaderFooterReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeMarcelpociotCollectionviewHeaderFooterReusableView.h; path = Classes/DeMarcelpociotCollectionviewHeaderFooterReusableView.h; sourceTree = "<group>"; };
+		7534D4EC1BC549030004DF72 /* DeMarcelpociotCollectionviewHeaderFooterReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeMarcelpociotCollectionviewHeaderFooterReusableView.m; path = Classes/DeMarcelpociotCollectionviewHeaderFooterReusableView.m; sourceTree = "<group>"; };
+		7534D4ED1BC549030004DF72 /* DeMarcelpociotSearchDisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeMarcelpociotSearchDisplayController.h; path = Classes/DeMarcelpociotSearchDisplayController.h; sourceTree = "<group>"; };
+		7534D4EE1BC549030004DF72 /* DeMarcelpociotSearchDisplayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeMarcelpociotSearchDisplayController.m; path = Classes/DeMarcelpociotSearchDisplayController.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* DeMarcelpociotCollectionview_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeMarcelpociotCollectionview_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libDeMarcelpociotCollectionview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDeMarcelpociotCollectionview.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +148,10 @@
 				24DD6CF81134B3F500162E58 /* DeMarcelpociotCollectionviewModule.m */,
 				1E65CF661A13E98B00187D0B /* DeMarcelpociotCollectionviewCollectionSectionProxy.m */,
 				1E65CF671A13E98B00187D0B /* DeMarcelpociotCollectionviewCollectionSectionProxy.h */,
+				7534D4EB1BC549030004DF72 /* DeMarcelpociotCollectionviewHeaderFooterReusableView.h */,
+				7534D4EC1BC549030004DF72 /* DeMarcelpociotCollectionviewHeaderFooterReusableView.m */,
+				7534D4ED1BC549030004DF72 /* DeMarcelpociotSearchDisplayController.h */,
+				7534D4EE1BC549030004DF72 /* DeMarcelpociotSearchDisplayController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -184,11 +196,13 @@
 				1E65CF641A12C16000187D0B /* DeMarcelpociotCollectionviewCollectionViewProxy.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* DeMarcelpociotCollectionview_Prefix.pch in Headers */,
 				24DD6CF91134B3F500162E58 /* DeMarcelpociotCollectionviewModule.h in Headers */,
+				7534D4F11BC549030004DF72 /* DeMarcelpociotSearchDisplayController.h in Headers */,
 				1EA7FA0F1A632C170090A8C4 /* CHTCollectionViewWaterfallLayout.h in Headers */,
 				1E65CF5C1A12C0DF00187D0B /* DeMarcelpociotCollectionviewCollectionItemProxy.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* DeMarcelpociotCollectionviewModuleAssets.h in Headers */,
 				1E65CF581A12BDF800187D0B /* DeMarcelpociotCollectionviewCollectionItem.h in Headers */,
 				1E8D6F391A7275AF00B22D80 /* M13ContextMenu.h in Headers */,
+				7534D4EF1BC549030004DF72 /* DeMarcelpociotCollectionviewHeaderFooterReusableView.h in Headers */,
 				1E8D6F3B1A7275AF00B22D80 /* M13ContextMenuItemIOS7.h in Headers */,
 				1E65CF621A12C16000187D0B /* DeMarcelpociotCollectionviewCollectionView.h in Headers */,
 				1E65CF691A13E98B00187D0B /* DeMarcelpociotCollectionviewCollectionSectionProxy.h in Headers */,
@@ -221,9 +235,10 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TiCollectionView" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -267,7 +282,9 @@
 				1E65CF631A12C16000187D0B /* DeMarcelpociotCollectionviewCollectionView.m in Sources */,
 				24DD6CFA1134B3F500162E58 /* DeMarcelpociotCollectionviewModule.m in Sources */,
 				1E65CF591A12BDF800187D0B /* DeMarcelpociotCollectionviewCollectionItem.m in Sources */,
+				7534D4F01BC549030004DF72 /* DeMarcelpociotCollectionviewHeaderFooterReusableView.m in Sources */,
 				1E65CF651A12C16000187D0B /* DeMarcelpociotCollectionviewCollectionViewProxy.m in Sources */,
+				7534D4F21BC549030004DF72 /* DeMarcelpociotSearchDisplayController.m in Sources */,
 				1E65CF681A13E98B00187D0B /* DeMarcelpociotCollectionviewCollectionSectionProxy.m in Sources */,
 				1E8D6F3C1A7275AF00B22D80 /* M13ContextMenuItemIOS7.m in Sources */,
 				1E8D6F3A1A7275AF00B22D80 /* M13ContextMenu.m in Sources */,
@@ -370,6 +387,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DSTROOT = /tmp/DeMarcelpociotCollectionview.dst;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -387,6 +405,7 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-DDEBUG",
 					"-DTI_POST_1_2",
