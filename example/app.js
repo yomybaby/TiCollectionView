@@ -29,7 +29,7 @@ var myTemplate = {
     ]
 };
 
-var listView = require("CollectionView").createCollectionView({
+var listView = collectionView.createCollectionView({
     backgroundColor: "white",
     top: 0,
     left: 0,
